@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilito</title>
+</head>
+
+<body>
+
+    <h1>Contabilito</h1>
+
+    <Div id="productRegister">
+        <h2>Registrar producto</h2>
+
+        <input type="text" id="productName" placeholder="Ingrese un nombre" name="Nombre">
+        <input type="text" id="productId" placeholder="Ingresa un ID" name="ID del producto">
+        <input type="text" id="description" name="descripcion" placeholder="Ingrese una descripcion del producto">
+        <input type="text" id="stockCount" name="stock" placeholder="ingrese cantidad en stock">
+        <input type="text" name="costo del producto" placeholder="Costo del producto" id="productCostInStock">
+
+    </Div>
+
+    <div id="movementStock">
+        <h2>Registro de movimientos</h2>
+
+        <select id="movementType">
+
+            <option value="buy">Compra</option>
+            <option value="sell">Venta</option>
+
+        </select>
+
+        <div id="movementDateDiv">
+            <label for="start">Fecha de transacción</label>
+            <input type="date" id="movementDate" name="trip-start">
+            <input type="text" id="product" placeholder="ingrese nombre del producto">
+            <input type="text" name="productCount" id="productCount" placeholder="cantidad de productos">
+            <input type="text" name="productCost" id="productCost" placeholder="costo del producto">
+            <input type="text" name="subtotal" id="movementSubTotal" placeholder="ingrese subtotal">
+            <p>iva</p><p>total</p>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
